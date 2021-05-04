@@ -23,13 +23,13 @@
               </div>
             </div>
             <div class="col-2">
-              <input type="text" class="form-control" placeholder="State">
+              <input type="text" class="form-control" placeholder="To">
             </div>
             <div class="col-3">
-              <input type="text" class="form-control" placeholder="Zip">
+              <input type="text" class="form-control" placeholder="When to leave">
             </div>
             <div class="col-3">
-              <input type="text" class="form-control" placeholder="Zip">
+              <input type="text" class="form-control" placeholder="When to return">
             </div>
           </div>
         </form>

@@ -18,6 +18,8 @@ export default {
   /*
    ** Customize the progress-bar color
    */
+  target: "static",
+  ssr: false,
   loading: { color: "#fff" },
   /*
    ** Global CSS
