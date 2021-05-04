@@ -1,7 +1,7 @@
 <template>
   <section class="app-hero py-md-5">
     <div class="container">
-      <div class="row">
+      <div class="row inner-wrapper">
         <div class="col-md-12">
           <div class="tagline">
             <h1>Save on your next flight</h1>
@@ -21,6 +21,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (min-width: 768px){
+  .inner-wrapper{
+    width: 930px;
+    margin: 0 auto;
+  }
+}
 .app-hero{
   min-height: 70vh;
   background: url(~/assets/images/heroes/hero-bg.png);
