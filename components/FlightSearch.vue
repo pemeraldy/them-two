@@ -10,7 +10,7 @@
           Round trip
         </div>
         <div class="pillz">
-          Multi city
+          Multi-city
         </div>
       </div>
       <div class="p-4">
