@@ -1,0 +1,43 @@
+<template>
+  <section class="app-hero py-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tagline">
+            <h1>Save on your next flight</h1>
+            <p>Thounsands of jaw dropping deals made everyday</p>
+          </div>
+        </div>
+      </div>
+      <FlightSearch />
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="scss" scoped>
+.app-hero{
+  min-height: 70vh;
+  background: url(~/assets/images/heroes/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.tagline {
+  padding: 100px 0;
+}
+.tagline h1{
+  font-weight: 700;
+  font-size: 60px;
+  color: #fff;
+}
+.tagline p{
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+</style>
