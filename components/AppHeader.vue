@@ -4,7 +4,7 @@
       <a class="navbar-brand text-white" href="#">
         <!-- Tiqwa -->
         <!-- <i class="fa fa-home" /> -->
-        <img class="app-logo ml-md-n5" src="https://res.cloudinary.com/travel-wahoo/image/upload/v1616752338/tiqwa-logo-white_guz7nr.svg" alt="">
+        <img class="app-logo ml-md-n5 d-none d-md-inline-block" src="https://res.cloudinary.com/travel-wahoo/image/upload/v1616752338/tiqwa-logo-white_guz7nr.svg" alt="">
       </a>
       <button
         class="navbar-toggler"

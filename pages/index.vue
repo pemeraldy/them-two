@@ -28,4 +28,10 @@ input[type=number]:focus, [type=text].form-control:focus,
 [type=tel].form-control:focus, [contenteditable].form-control:focus {
 box-shadow: inset 0 -1px 0 #ddd; }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .top-deals-summ{
+      width: 100%;
+    }
+
+}
 </style>

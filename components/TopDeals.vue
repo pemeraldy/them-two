@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center mt-md-5">
-          <h1 class="top-deals-title">
+          <h1 class="top-deals-title mt-5 mb-1 mt-md-0">
             Top Flight Deals
           </h1>
           <p class="top-deals-summ my-md-3">
@@ -11,7 +11,7 @@
           </p>
         </div>
       </div>
-      <div class="row my-md-5">
+      <div class="row my-md-5 mt-3">
         <div class="col-md-3">
           <div class="flight-wrap p-3 mb-4 p-md-3">
             <div class="top d-flex justify-content-between align-items-center">
@@ -204,5 +204,13 @@ rgba(59,59,59,0.37);
   font-size: 10px;
   font-weight: 400;
   color: #14142B;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .top-deals-summ{
+      width: 100%;
+    }
+    .top-deals-title{
+      font-size: 30px;
+    }
 }
 </style>

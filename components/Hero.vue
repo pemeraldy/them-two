@@ -9,7 +9,7 @@
           </div>
         </div>
       </div>
-      <FlightSearch />
+      <!-- <FlightSearch /> -->
     </div>
   </section>
 </template>

@@ -17,7 +17,7 @@
           <div class="news-letter">
             <form class="form-inline">
               <input class="form-control py-3" name="email" type="text" placeholder="Enter your email">
-              <button class="btn bg-primary text-white ml-3">
+              <button class="btn bg-primary text-white ml-md-3 mt-2 mt-md-0">
                 Subscribe
               </button>
             </form>
@@ -31,7 +31,7 @@
             For details on how we use your information, please see our <a href="">privacy policy</a>.
           </div>
         </div>
-        <div class="col-md-2 col-sm-12">
+        <div class="col-md-2 col-sm-12 mt-3 mt-md-0">
           <h4 class="footer-header">
             Plan Your Trip
           </h4>
@@ -43,7 +43,7 @@
         </div>
         <div class="col-md-3 col-sm-12">
           <div class="d-flex flex-column w-100 justify-content-end ">
-            <h3 class="footer-header">
+            <h3 class="footer-header mt-3 mt-md-0">
               Connect with us
             </h3>
             <div class="d-flex">
@@ -118,5 +118,8 @@ export default {
 .news-letter form input, .news-letter form button{
   border: none;
   height: 50px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
 }
 </style>
