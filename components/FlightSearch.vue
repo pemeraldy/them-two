@@ -56,11 +56,11 @@ export default {
 }
 @media only screen and (min-width: 768px) {
   .search-component-container{
-    width:930px;
+    /* width:930px; */
   }
   .search-flight-wrap h3{
-    width: 930px;
-    margin: 0 auto;
+    /* width: 930px; */
+    /* margin: 0 auto; */
   }
 }
 .pillz:first-child{
