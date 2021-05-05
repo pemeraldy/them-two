@@ -168,7 +168,7 @@ export default {
       border-top-right-radius: 16px;
     }
     .search-flight-wrap h3{
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 </style>
