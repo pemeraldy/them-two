@@ -4,7 +4,7 @@
       <a class="navbar-brand text-white" href="#">
         <!-- Tiqwa -->
         <!-- <i class="fa fa-home" /> -->
-        <img class="app-logo ml-md-n5 d-none d-md-inline-block" src="https://res.cloudinary.com/travel-wahoo/image/upload/v1616752338/tiqwa-logo-white_guz7nr.svg" alt="">
+        <img class="app-logo ml-md-n5 d-md-inline-block" src="https://res.cloudinary.com/travel-wahoo/image/upload/v1616752338/tiqwa-logo-white_guz7nr.svg" alt="">
       </a>
       <button
         class="navbar-toggler"
@@ -62,5 +62,10 @@ export default {
 .navbar-light .navbar-nav .active > .nav-link{
   border-bottom: 2px solid white;
   color: white;
+}
+@media (min-width: 400px) and (max-width: 480px) {
+  .app-logo{
+    margin-left: -50px;
+  }
 }
 </style>
