@@ -1,6 +1,6 @@
 <template>
   <section class="footer bg-secondary">
-    <div class="container pt-md-3">
+    <div class="container-fluid pt-md-3">
       <div class="row py-md-5">
         <div class="col-md-2 col-sm-12 mt-5 mt-md-0">
           <div class="footer-logo">
@@ -28,7 +28,7 @@
             </a>
           </div>
           <div class="col-md-8 pl-md-0 mt-2">
-            For details on how we use your information, please see our <a href="">privacy policy</a>.
+            For details on how we use your information, please see our <a class="privacy" href="">privacy policy</a>.
           </div>
         </div>
         <div class="col-md-2 col-sm-12 mt-3 mt-md-0">
@@ -36,9 +36,9 @@
             Plan Your Trip
           </h4>
           <div>
-            <button class="btn bg-primary text-white ">
+            <!-- <button class="btn bg-primary text-white "> -->
               Check my trip
-            </button>
+            <!-- </button> -->
           </div>
         </div>
         <div class="col-md-3 col-sm-12">
@@ -118,6 +118,16 @@ export default {
 .news-letter form input, .news-letter form button{
   border: none;
   height: 50px;
+}
+.unscribe {
+  text-decoration: underline;
+  font-size: 16px;
+}
+.privacy{
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 

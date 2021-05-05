@@ -143,7 +143,7 @@ export default {
 }
 .top-deals-title{
   font-weight: 700;
-  font-size: 70px;
+  font-size: 48px;
 }
 .top-deals-summ{
   width: 400px;

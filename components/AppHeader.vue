@@ -22,12 +22,15 @@
         <ul class="navbar-nav text-white  mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Flight</a>
+            <span class="border-bottom"></span>
           </li>
           <li class="nav-item ml-3">
             <a class="nav-link" href="#">Sign in</a>
+            <span class="border-bottom"></span>
           </li>
           <li class="nav-item ml-3">
             <a class="nav-link" href="#">Sign up</a>
+            <span class="border-bottom"></span>
           </li>
         </ul>
         <div class="form-inline my-2 my-lg-0">
@@ -59,8 +62,26 @@ export default {
 .navbar-light .navbar-nav .nav-link:hover{
   color: var(--secondary);
 }
+.nav-item{
+  height: 43px;
+  overflow: hidden;
+}
+.border-bottom{
+  transition: .3s margin ease-in;
+  width: 23px;
+  height: 2px;
+  margin: 0 auto;
+  background: #fff;
+  display: block;
+  margin-top: 3px;
+}
+.navbar-nav .nav-item:hover .nav-link ~ .border-bottom{
+  margin-top: 0;
+}
+.navbar-nav .nav-item.active .nav-link ~ .border-bottom{
+  margin-top: 0;
+}
 .navbar-light .navbar-nav .active > .nav-link{
-  border-bottom: 2px solid white;
   color: white;
 }
 @media (min-width: 400px) and (max-width: 480px) {
