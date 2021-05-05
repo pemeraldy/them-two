@@ -3,10 +3,10 @@
     <h3>Search & Book cheap flights</h3>
     <div class="search-component-container mt-md-3">
       <div class="d-flex">
-        <div class="pillz active">
+        <div class="pillz">
           One-way
         </div>
-        <div class="pillz">
+        <div class="pillz active">
           Round trip
         </div>
         <div class="pillz">
