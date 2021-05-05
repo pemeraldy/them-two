@@ -14,8 +14,8 @@
         </div>
       </div>
       <div class="p-4">
-        <form class="flight-form bg-white p-md-2">
-          <div class="form-row">
+        <form class="flight-form p-md-2">
+          <div class="form-row bg-white p-2 rounded-lg">
             <div class="col-3">
               <div class="d-flex align-items-center">
                 <img width="20" height="10" src="~/assets/images/icons/departure.png" alt="departure">
@@ -41,6 +41,34 @@
               </div>
             </div>
           </div>
+          <div class="d-flex mt-4">
+            <div class="">
+              <div class="col-3">
+                <div class="select-wrap">
+                  <label for="">Passenger</label>
+                  <select name="passenger-select" id="">
+                    <option value="">1 Adult, 2 Kids</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="col-3">
+                <div class="select-wrap">
+                  <label for="">Cabin class</label>
+                  <select name="" id="">
+                    <option value="">Economy</option>
+                    <option value="">Premium</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="ml-auto">
+              <button class="btn bg-primary text-white">
+                Book Flight
+              </button>
+            </div>
+          </div>
         </form>
       </div>
     </div>
@@ -59,7 +87,8 @@ export default {
 }
 .search-component-container{
   border: 1px solid rgba(255, 255, 255, 0.5);
-  background: rgba(137, 17, 137, 0.2);
+  /* background: rgba(137, 17, 137, 0.2); */
+  background: #8d6fd3;
   border-radius: 16px;
   margin: 0 auto;
 }
@@ -95,5 +124,28 @@ export default {
 .flight-form input{
   background: none;
   border: none;
+}
+.flight-form select{
+  background: transparent;
+  border:none;
+  color:#fff;
+  width: 100%;
+}
+.select-wrap{
+  position: relative;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background: transparent;
+}
+.select-wrap label{
+  top: -14px;
+  position: absolute;
+  background: #8d6fd3;
+  padding: 0 5px
+}
+.passenger-select{
+  width: 200px;
 }
 </style>
