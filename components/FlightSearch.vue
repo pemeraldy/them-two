@@ -16,20 +16,29 @@
       <div class="p-4">
         <form class="flight-form bg-white p-md-2">
           <div class="form-row">
-            <div class="col-2">
+            <div class="col-3">
               <div class="d-flex align-items-center">
-                <img src="~/assets/images/icons/departure.png" alt="departure">
+                <img width="20" height="10" src="~/assets/images/icons/departure.png" alt="departure">
                 <input type="text" class="form-control" placeholder="From">
               </div>
             </div>
-            <div class="col-2">
-              <input type="text" class="form-control" placeholder="To">
+            <div class="col-3">
+              <div class="d-flex align-items-center">
+                <img width="20" src="~/assets/images/icons/arrival.png" alt="arrival">
+                <input type="text" class="form-control" placeholder="To">
+              </div>
             </div>
             <div class="col-3">
-              <input type="text" class="form-control" placeholder="When to leave">
+              <div class="d-flex align-items-center">
+                <img width="14" src="~/assets/images/icons/calender.png" alt="when to leave">
+                <input type="text" class="form-control" placeholder="When do you leave?">
+              </div>
             </div>
             <div class="col-3">
-              <input type="text" class="form-control" placeholder="When to return">
+              <div class="d-flex align-items-center">
+                <img width="14" src="~/assets/images/icons/calender.png" alt="when to return">
+                <input type="text" class="form-control" placeholder="When do you return?">
+              </div>
             </div>
           </div>
         </form>

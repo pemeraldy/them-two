@@ -17,9 +17,13 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html{
+  overflow-x: hidden;
+}
 body{
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 textarea:focus, textarea.form-control:focus, input.form-control:focus,
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
