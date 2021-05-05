@@ -140,7 +140,8 @@ export default {
   background: transparent;
 }
 .select-wrap label{
-  top: -14px;
+  font-size: 12px;
+  top: -10px;
   position: absolute;
   background: #8d6fd3;
   padding: 0 5px
