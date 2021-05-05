@@ -2,7 +2,7 @@
   <div class="search-flight-wrap">
     <h3>Search & Book cheap flights</h3>
     <div class="search-component-container mt-md-3">
-      <div class="d-flex">
+      <div class="d-flex pillz-wrapper">
         <div class="pillz">
           One-way
         </div>
@@ -16,25 +16,25 @@
       <div class="p-4">
         <form class="flight-form p-md-2">
           <div class="form-row bg-white p-2 rounded-lg">
-            <div class="col-3">
+            <div class="col-md-3">
               <div class="d-flex align-items-center">
                 <img width="20" height="10" src="~/assets/images/icons/departure.png" alt="departure">
                 <input type="text" class="form-control" placeholder="From">
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3">
               <div class="d-flex align-items-center">
                 <img width="20" src="~/assets/images/icons/arrival.png" alt="arrival">
                 <input type="text" class="form-control" placeholder="To">
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3">
               <div class="d-flex align-items-center">
                 <img width="14" src="~/assets/images/icons/calender.png" alt="when to leave">
                 <input type="text" class="form-control" placeholder="When do you leave?">
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3">
               <div class="d-flex align-items-center">
                 <img width="14" src="~/assets/images/icons/calender.png" alt="when to return">
                 <input type="text" class="form-control" placeholder="When do you return?">
@@ -42,32 +42,39 @@
             </div>
           </div>
           <div class="d-flex mt-4">
-            <div class="">
-              <div class="col-3">
+            <div class=" form-row w-100">
+              <div class="col-md-4 mt-3 mt-md-0">
                 <div class="select-wrap">
                   <label for="">Passenger</label>
-                  <select name="passenger-select" id="">
-                    <option value="">1 Adult, 2 Kids</option>
+                  <select id="" name="passenger-select">
+                    <option value="">
+                      1 Adult, 2 Kids
+                    </option>
                   </select>
                 </div>
               </div>
-            </div>
-            <div class="">
-              <div class="col-3">
+              <div class="col-md-4 mt-3 mt-md-0">
                 <div class="select-wrap">
                   <label for="">Cabin class</label>
-                  <select name="" id="">
-                    <option value="">Economy</option>
-                    <option value="">Premium</option>
+                  <select id="" name="">
+                    <option value="">
+                      Economy
+                    </option>
+                    <option value="">
+                      Premium
+                    </option>
                   </select>
                 </div>
               </div>
+              <div class="ml-auto col-md-2 col-12 mt-3 mt-md-0 d-flex justify-content-end">
+                <button class="btn bg-primary text-white">
+                  Book Flight
+                </button>
+              </div>
             </div>
-            <div class="ml-auto">
-              <button class="btn bg-primary text-white">
-                Book Flight
-              </button>
-            </div>
+            <!-- <div class="">
+
+            </div> -->
           </div>
         </form>
       </div>
@@ -133,7 +140,8 @@ export default {
 }
 .select-wrap{
   position: relative;
-  width: 150px;
+  min-width: 150px;
+  max-width: 100%;
   padding: 10px;
   border: 1px solid #fff;
   border-radius: 8px;
@@ -148,5 +156,19 @@ export default {
 }
 .passenger-select{
   width: 200px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .pillz-wrapper{
+      align-items: center;
+    }
+    .pillz{
+      flex-grow: 1;
+    }
+    .pillz:last-child{
+      border-top-right-radius: 16px;
+    }
+    .search-flight-wrap h3{
+    font-size: 20px;
+  }
 }
 </style>

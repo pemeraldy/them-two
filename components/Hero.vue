@@ -1,9 +1,9 @@
 <template>
-  <section class="app-hero py-md-5">
+  <section class="app-hero py-3 py-md-5">
     <div class="container">
       <div class="row inner-wrapper">
         <div class="col-md-2" />
-        <div class="col-md-8">
+        <div class="col-md-8 ">
           <div class="tagline">
             <h1>Save on your next flight</h1>
             <p>Thounsands of jaw dropping deals made everyday</p>
@@ -53,5 +53,13 @@ export default {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
+}
+@media (min-width: 400px) and (max-width: 480px) {
+  .tagline{
+    padding: 20px 0;
+  }
+  .tagline h1{
+    font-size: 40px;
+  }
 }
 </style>
