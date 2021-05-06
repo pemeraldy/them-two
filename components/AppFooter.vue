@@ -1,6 +1,6 @@
 <template>
   <section class="footer bg-secondary">
-    <div class="container-fluid pt-md-3">
+    <div class="container pt-md-3">
       <div class="row py-md-5">
         <div class="col-md-2 col-sm-12 mt-5 mt-md-0">
           <div class="footer-logo">
@@ -31,7 +31,7 @@
             For details on how we use your information, please see our <a class="privacy" href="">privacy policy</a>.
           </div>
         </div>
-        <div class="col-md-2 col-sm-12 mt-3 mt-md-0">
+        <div class="col-md-3 col-sm-12 mt-3 mt-md-0">
           <h4 class="footer-header">
             Plan Your Trip
           </h4>
@@ -41,7 +41,7 @@
             <!-- </button> -->
           </div>
         </div>
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-2 col-sm-12">
           <div class="d-flex flex-column w-100 justify-content-end ">
             <h3 class="footer-header mt-3 mt-md-0">
               Connect with us
@@ -86,7 +86,7 @@ export default {
 
 <style>
 .footer-logo{
-  width: 280px;
+  width: 200px;
   height: 70px;
   position: relative;
 }
@@ -95,11 +95,15 @@ export default {
   top: -20px;
   position: absolute;
 }
-.footer-header, .unscribe, .footer-contacts{
+.footer-header, .unscribe{
   font-weight: 700;
   font-size: 16px;
   color: #000;
 }
+.footer-contacts{
+  font-weight: 500;
+}
+
 .footer .icon{
   width: 25px;
   height: 25px;

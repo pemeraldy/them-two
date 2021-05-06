@@ -1,6 +1,6 @@
 <template>
   <section class="conversion">
-    <div class="blur-bg d-none d-md-block" />
+    <div class="blur-bg  d-md-block" />
     <div class="row">
       <div class="col-md-6">
         <div class=" d-flex flex-column conversion-content justify-content-center align-items-center">

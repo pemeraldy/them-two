@@ -22,22 +22,22 @@
         <ul class="navbar-nav text-white  mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Flight</a>
-            <span class="border-bottom"></span>
+            <span class="border-bottom" />
           </li>
           <li class="nav-item ml-3">
             <a class="nav-link" href="#">Sign in</a>
-            <span class="border-bottom"></span>
+            <span class="border-bottom" />
           </li>
           <li class="nav-item ml-3">
             <a class="nav-link" href="#">Sign up</a>
-            <span class="border-bottom"></span>
+            <span class="border-bottom" />
           </li>
         </ul>
         <div class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-light my-2 my-sm-0 px-md-4 py-md-2 " type="submit">
+          <button class="btn phone-book btn-outline-light my-2 my-sm-0 " type="submit">
             <i class="fa fa-phone" /> Book via phone
           </button>
-          <button class="btn btn-secondary my-2 ml-3 my-sm-0 px-md-4 py-md-2" type="submit">
+          <button class="btn check-trip btn-secondary my-2 ml-3 my-sm-0" type="submit">
             Check my trip
           </button>
         </div>
@@ -53,6 +53,19 @@ export default {
 </script>
 
 <style lang="scss">
+.btn.phone-book{
+  width: 201px;
+}
+.btn.check-trip{
+  color: var(--primary);
+  background: #fff;
+  width: 164px;
+}
+.btn.phone-book, .btn.check-trip{
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 8px;
+}
 .app-logo{
   width: 90%;
 }
@@ -88,5 +101,8 @@ export default {
   .app-logo{
     margin-left: -50px;
   }
+}
+.yopee-wrapper:not(:focus-within):not(:hover) .hover::before {
+  content: "Am avaialble :)";
 }
 </style>
