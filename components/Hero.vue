@@ -12,11 +12,11 @@
         <div class="col-md-2" />
       </div>
       <div class="row">
-        <div class="col-md-2" />
-        <div class="col-md-8">
+        <div class="col-md-1" />
+        <div class="col-md-10">
           <FlightSearch />
         </div>
-        <div class="col-md-2" />
+        <div class="col-md-1" />
       </div>
     </div>
   </section>
@@ -54,12 +54,15 @@ export default {
   font-weight: 400;
   color: #fff;
 }
-@media (min-width: 400px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 480px) {
   .tagline{
     padding: 20px 0;
   }
   .tagline h1{
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .tagline p{
+    font-size: 12px;
   }
 }
 </style>

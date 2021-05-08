@@ -11,120 +11,129 @@
           </p>
         </div>
       </div>
-      <div class="row my-md-5 mt-3">
-        <div class="col-md-3">
-          <div class="flight-wrap p-3 mb-4 p-md-3">
-            <div class="top d-flex justify-content-between align-items-center">
-              <div class="airline-logo-wrap">
-                <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
+      <div class="row">
+        <div class="col-md-6 my-md-5 mt-3">
+          <div class="row">
+            <div class="col">
+              <div class="flight-wrap p-3 mb-4 p-md-3">
+                <div class="top d-flex justify-content-between align-items-center">
+                  <div class="airline-logo-wrap">
+                    <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
+                  </div>
+                  <p class="airline-name m-0">
+                    Singapore Airlines
+                  </p>
+                </div>
+                <div class="flight-price mt-4">
+                  <h3>N445,553.60</h3>
+                </div>
+                <hr>
+                <div class="flight-destinations">
+                  <div class="d-flex  justify-content-between align-items-center">
+                    <h1>LOS - LHR </h1><p>8h 40m</p>
+                  </div>
+                  <p class="m-0 airport-fulll-name">
+                    Murtala Muhammed International Airport Terminal 1
+                  </p>
+                </div>
+                <div class="flight-bottom">
+                  <h4>13 April, 2021</h4>
+                  <p>Book economy promo until May 21st</p>
+                </div>
               </div>
-              <p class="airline-name m-0">
-                Singapore Airlines
-              </p>
             </div>
-            <div class="flight-price mt-4">
-              <h3>N445,553.60</h3>
-            </div>
-            <hr>
-            <div class="flight-destinations">
-              <div class="d-flex  justify-content-between align-items-center">
-                <h1>LOS - LHR </h1><p>8h 40m</p>
+            <div class="col ml-n4 ml-md-0">
+              <div class="flight-wrap p-3 mb-4 p-md-3">
+                <div class="top d-flex justify-content-between align-items-center">
+                  <div class="airline-logo-wrap">
+                    <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
+                  </div>
+                  <p class="airline-name m-0">
+                    Singapore Airlines
+                  </p>
+                </div>
+                <div class="flight-price mt-4">
+                  <h3>N445,553.60</h3>
+                </div>
+                <hr>
+                <div class="flight-destinations">
+                  <div class="d-flex  justify-content-between align-items-center">
+                    <h1>LOS - LHR </h1><p>8h 40m</p>
+                  </div>
+                  <p class="m-0 airport-fulll-name">
+                    Murtala Muhammed International Airport Terminal 1
+                  </p>
+                </div>
+                <div class="flight-bottom">
+                  <h4>13 April, 2021</h4>
+                  <p>Book economy promo until May 21st</p>
+                </div>
               </div>
-              <p class="m-0 airport-fulll-name">
-                Murtala Muhammed International Airport Terminal 1
-              </p>
-            </div>
-            <div class="flight-bottom">
-              <h4>13 April, 2021</h4>
-              <p>Book economy promo until May 21st</p>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="flight-wrap p-3 mb-4 p-md-3">
-            <div class="top d-flex justify-content-between align-items-center">
-              <div class="airline-logo-wrap">
-                <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
+        <div class="col-md-6 my-md-5">
+          <div class="row">
+            <div class="col">
+              <div class="flight-wrap p-3 mb-4 p-md-3">
+                <div class="top d-flex justify-content-between align-items-center">
+                  <div class="airline-logo-wrap">
+                    <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
+                  </div>
+                  <p class="airline-name m-0">
+                    Singapore Airlines
+                  </p>
+                </div>
+                <div class="flight-price mt-4">
+                  <h3>N445,553.60</h3>
+                </div>
+                <hr>
+                <div class="flight-destinations">
+                  <div class="d-flex  justify-content-between align-items-center">
+                    <h1>LOS - LHR </h1><p>8h 40m</p>
+                  </div>
+                  <p class="m-0 airport-fulll-name">
+                    Murtala Muhammed International Airport Terminal 1
+                  </p>
+                </div>
+                <div class="flight-bottom">
+                  <h4>13 April, 2021</h4>
+                  <p>Book economy promo until May 21st</p>
+                </div>
               </div>
-              <p class="airline-name m-0">
-                Singapore Airlines
-              </p>
             </div>
-            <div class="flight-price mt-4">
-              <h3>N445,553.60</h3>
-            </div>
-            <hr>
-            <div class="flight-destinations">
-              <div class="d-flex  justify-content-between align-items-center">
-                <h1>LOS - LHR </h1><p>8h 40m</p>
+            <div class="col ml-n4 ml-md-0">
+              <div class="flight-wrap p-3 mb-4 p-md-3">
+                <div class="top d-flex justify-content-between align-items-center">
+                  <div class="airline-logo-wrap">
+                    <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
+                  </div>
+                  <p class="airline-name m-0">
+                    Singapore Airlines
+                  </p>
+                </div>
+                <div class="flight-price mt-4">
+                  <h3>N445,553.60</h3>
+                </div>
+                <hr>
+                <div class="flight-destinations">
+                  <div class="d-flex  justify-content-between align-items-center">
+                    <h1>LOS - LHR </h1><p>8h 40m</p>
+                  </div>
+                  <p class="m-0 airport-fulll-name">
+                    Murtala Muhammed International Airport Terminal 1
+                  </p>
+                </div>
+                <div class="flight-bottom">
+                  <h4>13 April, 2021</h4>
+                  <p>Book economy promo until May 21st</p>
+                </div>
               </div>
-              <p class="m-0 airport-fulll-name">
-                Murtala Muhammed International Airport Terminal 1
-              </p>
-            </div>
-            <div class="flight-bottom">
-              <h4>13 April, 2021</h4>
-              <p>Book economy promo until May 21st</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="flight-wrap p-3 mb-4 p-md-3">
-            <div class="top d-flex justify-content-between align-items-center">
-              <div class="airline-logo-wrap">
-                <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
-              </div>
-              <p class="airline-name m-0">
-                Singapore Airlines
-              </p>
-            </div>
-            <div class="flight-price mt-4">
-              <h3>N445,553.60</h3>
-            </div>
-            <hr>
-            <div class="flight-destinations">
-              <div class="d-flex  justify-content-between align-items-center">
-                <h1>LOS - LHR </h1><p>8h 40m</p>
-              </div>
-              <p class="m-0 airport-fulll-name">
-                Murtala Muhammed International Airport Terminal 1
-              </p>
-            </div>
-            <div class="flight-bottom">
-              <h4>13 April, 2021</h4>
-              <p>Book economy promo until May 21st</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="flight-wrap p-3 mb-4 p-md-3">
-            <div class="top d-flex justify-content-between align-items-center">
-              <div class="airline-logo-wrap">
-                <img src="~/assets/images/icons/airline-logo.png" alt="airline name">
-              </div>
-              <p class="airline-name m-0">
-                Singapore Airlines
-              </p>
-            </div>
-            <div class="flight-price mt-4">
-              <h3>N445,553.60</h3>
-            </div>
-            <hr>
-            <div class="flight-destinations">
-              <div class="d-flex  justify-content-between align-items-center">
-                <h1>LOS - LHR </h1><p>8h 40m</p>
-              </div>
-              <p class="m-0 airport-fulll-name">
-                Murtala Muhammed International Airport Terminal 1
-              </p>
-            </div>
-            <div class="flight-bottom">
-              <h4>13 April, 2021</h4>
-              <p>Book economy promo until May 21st</p>
             </div>
           </div>
         </div>
       </div>
+      <!-- / ########################       -->
     </div>
   </section>
 </template>
@@ -154,7 +163,8 @@ export default {
 .flight-wrap{
   border: 1px solid #fff;
   border-radius: 8px;
-  min-width: 262px;
+  /* min-width: 262px; */
+  width: 262px;
   background: rgba(255, 230, 255, 0.5);
   transition: all 0.25s ease-in;
 }
@@ -211,6 +221,37 @@ rgba(59,59,59,0.37);
     }
     .top-deals-title{
       font-size: 30px;
+    }
+    .flight-wrap:nth-child(even){
+      margin-left: -30px !important;
+    }
+    .flight-wrap{
+      width: 160px;
+      padding: 10px !important;
+    }
+    .flight-destinations h1{
+      font-size: 18px;
+    }
+    .airline-name{
+      text-align: right;
+      font-size: 10px;
+    }
+    .flight-destinations p{
+      font-size: 8px;
+    }
+    .flight-bottom h4{
+      font-size: 10px;
+      margin-top: 10px;
+    }
+    .flight-bottom p{
+      font-size: 8px;
+    }
+    .airline-logo-wrap{
+      width: 24px;
+      height: 24px;
+    }
+    .flight-price h3{
+      font-size: 14px;
     }
 }
 </style>

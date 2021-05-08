@@ -35,7 +35,7 @@
           <h4 class="footer-header">
             Plan Your Trip
           </h4>
-          <div>
+          <div class="mt-md-5">
             <!-- <button class="btn bg-primary text-white "> -->
               Check my trip
             <!-- </button> -->
@@ -50,13 +50,13 @@
               <div class="icon">
                 <i class="fa fa-instagram" />
               </div>
-              <div class="icon ml-2 ">
+              <div class="icon  ">
                 <i class="fa fa-twitter" />
               </div>
-              <div class="icon ml-2 ">
+              <div class="icon  ">
                 <i class="fa fa-facebook" />
               </div>
-              <div class="icon ml-2 ">
+              <div class="icon  ">
                 <i class="fa fa-linkedin" />
               </div>
             </div>
@@ -104,6 +104,9 @@ export default {
   font-weight: 500;
 }
 
+.footer .icon:not(:first-child){
+  margin-left: 16px;
+}
 .footer .icon{
   width: 25px;
   height: 25px;
@@ -111,6 +114,9 @@ export default {
   color: #fff;
   border-radius: 50%;
   text-align: center;
+}
+.news-letter form input::placeholder{
+  font-size: 12px;
 }
 .news-letter form input{
   border-radius: 8px;

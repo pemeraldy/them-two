@@ -53,6 +53,9 @@ export default {
 </script>
 
 <style lang="scss">
+.navbar-light .navbar-toggler{
+  border:none;
+}
 .btn.phone-book{
   width: 201px;
 }
@@ -101,6 +104,15 @@ export default {
   .app-logo{
     margin-left: -50px;
   }
+  .navbar-light .navbar-brand{ width:250px }
+
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  .app-logo{
+    margin-left: -50px;
+  }
+  .navbar-light .navbar-brand{ width:250px }
+
 }
 .yopee-wrapper:not(:focus-within):not(:hover) .hover::before {
   content: "Am avaialble :)";
