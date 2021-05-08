@@ -3,7 +3,7 @@
     <div class="blur-bg  d-md-block" />
     <div class="row">
       <div class="col-md-6">
-        <div class=" d-flex flex-column conversion-content justify-content-center align-items-center">
+        <div class=" align-items-baseline ml-3 ml-md-0 align-items-md-center d-flex flex-column conversion-content justify-content-center align-items-center">
           <div class="conversion-inner">
             <h1>Check my trip</h1>
             <p>
@@ -74,5 +74,22 @@ export default {
 }
 .conversion-content{
   height: 100%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .conversion{
+    background: url(~/assets/images/heroes/dessert-BG-mobile.png);
+    background-size: cover;
+  }
+  .blur-bg{
+    background: url(~/assets/images/heroes/dessert-BG-mobile-blur.png);
+    background-size: cover;
+  }
+  .conversion-inner h1{
+    font-size: 18px;
+  }
+  .conversion-inner p{
+    font-size: 10px;
+    width:128px;
+  }
 }
 </style>

@@ -35,7 +35,7 @@
           <h4 class="footer-header">
             Plan Your Trip
           </h4>
-          <div class="mt-md-5">
+          <div class="mt-md-4">
             <!-- <button class="btn bg-primary text-white "> -->
               Check my trip
             <!-- </button> -->
@@ -46,7 +46,7 @@
             <h3 class="footer-header mt-3 mt-md-0">
               Connect with us
             </h3>
-            <div class="d-flex">
+            <div class="d-flex mt-4">
               <div class="icon">
                 <i class="fa fa-instagram" />
               </div>
