@@ -96,7 +96,7 @@ export default {
       this.isOneWayTrip = false
     },
     toggleOneWay () {
-      this.oneWayTrip = true
+      this.isOneWayTrip = true
       this.isRoundTrip = false
     }
   }
@@ -119,7 +119,9 @@ export default {
 .inputs-wrapper.form-row{
   background: white;
 }
-
+.input-container:not(:first-child){
+  border-left: 1px solid #ddd;
+}
 @media only screen and (min-width: 768px) {
   .search-component-container{
     /* width:930px; */
@@ -138,6 +140,7 @@ export default {
   font-weight: 500;
 }
 .pillz{
+  cursor: pointer;
   width: 110px;
   border: 1px solid #fff;
   padding: 10px;
@@ -147,6 +150,10 @@ export default {
   transition: all .3s ease-in;
 }
 .flight-form input:focus{
+  outline: none !important;
+  border: none !important;
+}
+.flight-form input:active{
   outline: none !important;
   border: none !important;
 }

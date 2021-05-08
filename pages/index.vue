@@ -37,7 +37,8 @@ input[type=number]:focus,
 [type=email].form-control:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
-  box-shadow: inset 0 -1px 0 #ddd;
+  box-shadow: inset 0 -1px 0 transparent;
+  /* box-shadow: 0; */
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
