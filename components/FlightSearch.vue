@@ -104,13 +104,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .search-flight-wrap{
   color: white;
 }
 .search-component-container{
   border: 1px solid rgba(255, 255, 255, 0.5);
-  /* background: rgba(137, 17, 137, 0.2); */
   background: #8d6fd3;
   border-radius: 16px;
   margin: 0 auto;
@@ -122,14 +121,17 @@ export default {
 .input-container:not(:first-child){
   border-left: 1px solid #ddd;
 }
+.pillz{
+  transition: all 400ms ease-in-out;
+}
+.input-container{
+  transition: all 400ms ease-in-out;
+}
+form{
+  transition: all 400ms ease-in-out;
+}
+/* Tablet Responsiveness */
 @media only screen and (min-width: 768px) {
-  .search-component-container{
-    /* width:930px; */
-  }
-  .search-flight-wrap h3{
-    /* width: 930px; */
-    /* margin: 0 auto; */
-  }
 }
 .pillz:first-child{
   border-top-left-radius: 16px;
@@ -194,18 +196,20 @@ export default {
   width: 150px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .pillz-wrapper{
-      align-items: center;
-    }
-    .pillz{
-      flex-grow: 1;
-      text-align: center;
-    }
-    .pillz:last-child{
-      border-top-right-radius: 16px;
-    }
-    .search-flight-wrap h3{
-    font-size: 24px;
+  .input-container:not(:first-child){ border-left: 0; }
+
+  .pillz-wrapper{
+    align-items: center;
+  }
+  .pillz{
+    flex-grow: 1;
+    text-align: center;
+  }
+  .pillz:last-child{
+    border-top-right-radius: 16px;
+  }
+  .search-flight-wrap h3{
+  font-size: 24px;
   }
   .inputs-wrapper.form-row{
     background: transparent !important;
