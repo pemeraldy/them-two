@@ -1,5 +1,5 @@
 <template>
-  <section class="app-hero py-3 py-md-5">
+  <section class="app-hero py-3 pb-5 py-md-5">
     <div class="container">
       <div class="row inner-wrapper">
         <div class="col-md-2" />
@@ -59,7 +59,7 @@ export default {
     padding: 20px 0;
   }
   .tagline h1{
-    font-size: 30px;
+    font-size: 35px;
   }
   .tagline p{
     font-size: 12px;

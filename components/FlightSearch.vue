@@ -195,6 +195,20 @@ form{
 .btn.bookflight-btn{
   width: 150px;
 }
+@media (max-width: 320px){
+  .tagline{
+    padding: 20px 0;
+  }
+  .tagline h1{
+    font-size: 35px;
+  }
+  .tagline p{
+    font-size: 12px;
+  }
+  .pillz{
+    font-size: 12px;
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .input-container:not(:first-child){ border-left: 0; }
 
