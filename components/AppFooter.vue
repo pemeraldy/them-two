@@ -37,7 +37,7 @@
           </h4>
           <div class="mt-md-4">
             <!-- <button class="btn bg-primary text-white "> -->
-              Check my trip
+            Check my trip
             <!-- </button> -->
           </div>
         </div>
